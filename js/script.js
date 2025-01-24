@@ -15,3 +15,11 @@ document.addEventListener("click", function (e) {
     navbarNav.classList.remove("active");
   }
 });
+
+document.getElementById("search").addEventListener("click", () => {
+  alert("Pencarian diaktifkan!");
+});
+
+document.getElementById("shopping-cart").addEventListener("click", () => {
+  alert("Keranjang Anda kosong!");
+});
